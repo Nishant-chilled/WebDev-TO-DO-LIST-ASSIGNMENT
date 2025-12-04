@@ -4,16 +4,20 @@ This project allows users to add tasks, delete tasks, and mark tasks as complete
 Designed as part of a Web Development assignment.
 
 🚀 Features
+
 ✔ Add New Tasks
 Users can type a task and click Add (or press Enter) to insert it into the list.
+
 ✔ Mark Tasks as Done (With Sound)
 Each task includes a "Mark as done" button.
 When clicked:
 The task fades & gets a line-through
 A ding sound is played
 The button becomes disabled and shows Done
+
 ✔ Delete Tasks
 Every task includes a red X button to delete it instantly.
+
 ✔ Clean & Modern UI
 Dark background
 Highlighted buttons
