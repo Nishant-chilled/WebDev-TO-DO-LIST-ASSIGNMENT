@@ -1,0 +1,123 @@
+/* I am resetting default margins and paddings and applying a common font */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+/* I am centering the app on the page and giving a light background */
+body{
+    background: rgb(25, 2, 63);
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+/* This is the main container that holds the entire To-Do list UI */
+.container{
+    background: black;
+    padding: 25px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #110303; /* I added a shadow to make it pop */
+}
+
+/* The "To-Do List" heading styling */
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+/* This section holds the input box and the Add button */
+.input-box{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/* This is the input where I type a task */
+#taskInput{
+    background: #2b2b2b;
+    color: white;
+    flex: 1; /* I want it to take all available space */
+    padding: 10px;
+    border: 1px solid #555; /* I fixed the typo in border definition */
+    border-radius: 5px 0 0 5px; /* Rounded only left corners */
+}
+
+/* This is the Add button to create new tasks */
+#addBtn{
+    padding: 10px 20px;
+    border: none;
+    background: #edaa01; /* Green color for positive action */
+    color: black;
+    border-radius: 0 5px 5px 0; /* Rounded only right corners */
+    cursor: pointer;
+}
+
+/* This is the unordered list where all tasks will appear */
+#taskList{
+    list-style: none; /* Removing default bullet points */
+}
+
+/* Each task card */
+#taskList li{
+    background: #2b2b2b;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    /* I removed flex so I can place the done button below */
+}
+
+/* This top row holds the task text and the delete X button */
+.task-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling for the task text */
+.task-text{
+    font-size: 16px;
+}
+
+/* Delete button to remove a task */
+.delete-btn{
+    background: red;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* This is the new "Mark as done" button below each task */
+.done-btn{
+    margin-top: 8px;
+    width: 100%; /* I want it to stretch across the task */
+    padding: 6px 0;
+    border: none;
+    border-radius: 4px;
+    background: #edaa01;
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Hover effect to make the app feel interactive */
+.done-btn:hover{
+    background: #edaa01;
+}
+
+/* When a task is marked done, I fade it and strike it out */
+#taskList li.done{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+/* When the task is done, I disable the done button */
+.done-btn:disabled{
+    background: rgba(243, 220, 136, 0.919);
+    cursor: default;
+}
