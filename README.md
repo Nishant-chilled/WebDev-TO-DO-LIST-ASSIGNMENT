@@ -1,12 +1,15 @@
 📌 To-Do List Web App (With Ding Sound)
+
 A simple and clean To-Do List application built using HTML, CSS, and JavaScript.
 This project allows users to add tasks, delete tasks, and mark tasks as done — with a ding sound playing when a task is completed.
 Designed as part of a Web Development assignment.
 
 🌐 Live Demo
+
 👉 https://nishant-chilled.github.io/WebDev-TO-DO-LIST-ASSIGNMENT/
 
 🚀 Features
+
 ✔ Add New Tasks – Users can type a task and click Add (or press Enter).
 ✔ Mark Tasks as Done (with sound) – Each task has a "Mark as done" button.
 When clicked:
@@ -19,6 +22,7 @@ Button becomes disabled
 
 
 🛠️ Technologies Used
+
 HTML5 – Structure
 CSS3 – Styling
 JavaScript (ES6) – Application logic
@@ -42,6 +46,7 @@ const dingSound = new Audio("ding.mp3");
 
 dingSound.currentTime = 0;  
 dingSound.play();
+
 The sound plays whenever the user marks a task as done.
 
 
@@ -51,6 +56,7 @@ The sound plays whenever the user marks a task as done.
 
 
 🔮 Future Improvements
+
 Add saving tasks using localStorage
 Add priority labels (High, Medium, Low)
 Add animations (fade-in, fade-out)
@@ -58,9 +64,11 @@ Add dark/light mode toggle
 
 
 ✨ Author
+
 Nishant Borah
 Web Development Assignment – To-Do List with Sound
 
 
 🏁 Summary
+
 This project demonstrates DOM manipulation, event handling, audio feedback, and UI design — all combined to make a clean and functional To-Do List application.
