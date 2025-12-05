@@ -1,4 +1,4 @@
-#📌 To-Do List Web App (With Ding Sound)
+## 📌 To-Do List Web App (With Ding Sound)
 
 A simple and clean To-Do List application built using HTML, CSS, and JavaScript.
 This project allows users to add tasks, delete tasks, and mark tasks as done — with a ding sound playing when a task is completed.
@@ -8,41 +8,58 @@ Designed as part of a Web Development assignment.
 
 ## 🌐 Live Demo
 
+Project website
 👉 https://nishant-chilled.github.io/WebDev-TO-DO-LIST-ASSIGNMENT/
 
 ---
 
 ## 🚀 Features
 
+
 ✔ Add New Tasks – Users can type a task and click Add (or press Enter).
+
 ✔ Mark Tasks as Done (with sound) – Each task has a "Mark as done" button.
+
 When clicked:
-The task gets a line-through
-Fades visually
-Plays a ding sound
-Button becomes disabled
+
+* The task gets a line-through
+
+* Fades visually
+
+* Plays a ding sound
+
+* Button becomes disabled
+
 ✔ Delete Tasks – A red X button deletes a task instantly.
+
 ✔ Modern UI – Dark theme, clean card layout, bright interactive buttons.
 
 ---
 
 ## 🛠️ Technologies Used
 
+
 HTML5 – Structure
+
 CSS3 – Styling
+
 JavaScript (ES6) – Application logic
+
 Audio API – Plays the ding sound
 
 ---
 
 ## 📁 Project Structure
 
-/To-Do-List
-│
-├── index.html      # Main webpage
-├── style.css       # Stylesheet
-├── script.js       # JavaScript logic
-└── ding.mp3        # Sound played on task completion
+```
+portfolio/
+
+├── index.html
+├── script.js
+├── style.css
+├── ding.mp3
+
+```
 
 ---
 
@@ -65,16 +82,21 @@ The sound plays whenever the user marks a task as done.
 
 ## 🔮 Future Improvements
 
-Add saving tasks using localStorage
-Add priority labels (High, Medium, Low)
-Add animations (fade-in, fade-out)
-Add dark/light mode toggle
+
+-Add saving tasks using **localStorage**
+
+-Add **priority labels (High, Medium, Low)**
+
+-Add **animations (fade-in, fade-out)**
+
+-Add **dark/light mode toggle**
 
 ---
 
 ## ✨ Author
 
 Nishant Borah
+
 Web Development Assignment – To-Do List with Sound
 
 ---
