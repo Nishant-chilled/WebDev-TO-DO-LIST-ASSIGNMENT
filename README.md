@@ -45,8 +45,8 @@ dingSound.play();
 
 
 📸 Preview
-![App Preview](<img width="1728" height="1117" alt="Screenshot 2025-12-04 at 6 44 04 PM" src="https://github.com/user-attachments/assets/fa3da76b-31a1-47af-a50c-dba320a8cb75" />
-)
+<img width="1728" height="1117" alt="Screenshot 2025-12-04 at 6 44 04 PM" src="https://github.com/user-attachments/assets/e48a59a0-8a42-426c-bb03-2069b943a767" />
+
 
 
 🔮 Future Improvements
